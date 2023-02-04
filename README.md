@@ -2,7 +2,7 @@
 <table>
 <tr>
   <th>#</th>
-  <th>Project Name</th>
+  <th>GitHub Pages</th>
   <th>Link</th>
 </tr>
 <tr>
