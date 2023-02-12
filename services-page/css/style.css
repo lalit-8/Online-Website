@@ -5,12 +5,18 @@
 	box-sizing:border-box;
 	font-family:'Poppins',sans-serif;
 }
-body
+h1
+{
+	text-align: center;
+	color:#fff;
+	background:#333;
+}
+.flex-container
 {
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	min-height:100vh;
+	min-height:95vh;
 	background:#333;
 }
 .container
@@ -33,7 +39,7 @@ body
 }
 .card:hover
 {
-	height:450px;
+	height:410px;
 }
 .card .lines
 {
