@@ -1,6 +1,7 @@
 @font-face {
 font-family: 'SofiaFont';
 src: url("../fonts/Sofia-Regular.ttf");
+font-display:swap;
 }
 body {
 font-family: "SofiaFont";
