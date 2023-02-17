@@ -1,0 +1,18 @@
+#container{
+	position: relative;
+	width: 154px;
+	height: 214px;
+	background-color: orange;
+	border-radius: 5px;
+	padding: 0px 10px;
+}
+#mytitle{
+	font-size: 17px;
+	padding: 10px 0px;
+	font-weight: bold;}
+	input[type=number]{
+	width: 140px;
+}
+button{
+	width: 147px;
+}

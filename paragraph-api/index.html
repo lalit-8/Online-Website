@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paragraph API</title>
+    <meta name="author" content="Lalit" />
+    <meta name="description" content="This is an API example that shows how to generate demo paragraphs by giving the number of paragraphs and sentences." />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+</head>
+<body>
+	<div id="container">
+		<div id="mytitle">Paragraph and Sentence Generator</div>
+		<label for="new-paragraph">Number of paragraphs</label><br/>
+		<input id="new-paragraph" type="number" name="new-paragraph" min="1" max="20"><br/><br/>
+		<label for="new-sentence">Number of sentences</label><br/>
+		<input id="new-sentence" type="number" name="new-sentence" min="1" max="50"><br/><br/>
+		<button onclick="submitBoth()">Generate</button>
+	</div>
+	<div id="getboth"></div>
+	<script src="js/main.js"></script>
+</body>
+</html>
