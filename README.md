@@ -11,7 +11,4 @@
 <tr>
   <td>2</td><td>Services Page</td><td><a target="_blank" href="https://lalit-8.github.io/services-page/">&#128279;</a></td>
 </tr>
-<tr>
-  <td>3</td><td>Paragraph API</td><td><a target="_blank" href="https://lalit-8.github.io/paragraph-api/">&#128279;</a></td>
-</tr>
 </table>
