@@ -18,3 +18,10 @@ async function updateQuote() {
 button.addEventListener("click", updateQuote);
 updateQuote();
 });
+
+function copyText(){
+	let qtext = document.getElementById('qtext').innerText;
+	let qcite = document.getElementById('qcite').innerText;
+	let result = '"'+qtext+'"'.concat("\n","-",qcite);
+	navigator.clipboard.writeText(result);
+}

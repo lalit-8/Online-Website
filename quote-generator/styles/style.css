@@ -14,26 +14,36 @@ body {
 .card-body {
 	padding:10px;
 }
-p:before {
+#qtext:before {
 	content:open-quote;
 }
 
-p:after {
+#qtext:after {
 	content:close-quote;
 }
-cite::before {
+#qcite::before {
 	content:"-";
 }
 .card-footer {
 	padding:10px;
-	background-color:lightgray;
+	background-color:#d3d3d3;
 	border-radius:0 0 5px 5px;
 }
-.quote-button {
-	background-color:darkblue;
+.quote-button, #copy-text {
+	background-color:#00008b;
 	color:white;
+	cursor: pointer;
 	padding:10px;
 	border-radius:5px;
-	border-color:transparent;
-	margin-left:20px;
+	border:none;
+	margin:10px 0 10px 40px;
+	box-shadow: 0 5px #999;
+}
+.quote-button:hover, #copy-text:hover {
+    background-color: #00518b;
+}
+.quote-button:active, #copy-text:active {
+	background-color: #00518b;
+	box-shadow: 0 1px #666;
+	transform: translateY(4px);
 }
