@@ -3,7 +3,50 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
-  <body>
-  </body>
+	<title>Home Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/style.css" />
+	<style>
+	div.container {
+	  text-align: center;
+	}
+	
+
+	ul.myUL {
+	  display: inline-block;
+	  text-align: left;
+	}
+	
+	#grad1 {
+	  height: 100vh;
+	  background-color: purple; /* For browsers that do not support gradients */
+	  background-image: linear-gradient(purple, yellow);
+	}
+	</style>
+</head>
+<body>
+<div id="grad1">
+
+	<div class="topnav" id="myTopnav">
+	  <a href="./" class="active">Home</a>
+	  <a href="about.html">About</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i>
+	  </a>
+	</div>
+
+	<h1>Home Page</h1>
+	<div class="container">
+		<ul class="myUL">
+			<li>Responsive Top Navigation</li>
+			<li>Responsive Contact Form</li>
+			<li>Multiple pages</li>
+		</ul>
+	</div>
+	
+</div>
+<script src="js/main.js"></script>
+
+</body>
 </html>
