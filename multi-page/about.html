@@ -1,85 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Page</title>
-    <meta name="author" content="Lalit" />
-    <meta name="description" content="This is the about page of a multiple-page website example." />
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
-    <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
-    <link rel="manifest" href="favicon/site.webmanifest" />
-	<style>
-	#wrapper {
-	  max-width: 1050px;
-	  margin: 60px auto 60px auto;
-	  background-color: #DDD
-	}
-	#outer {
-	  display: table;
-	  width: 100%;
-	  table-layout: fixed;
-	}
-	.itemwrapper {
-	  display: table-cell;
-	  vertical-align: top;
-	  width: 100%;
-	  padding:10px;
-	}
-	img {
-	  max-width: 100%;
-	  height: auto;
-	}
-	p {
-	  margin: 10px;
-	  padding:10px;
-	  color: #000000;
-	  background-color: white;
-	}
-	</style>
-</head>
-<body>
-<div id="grad1">
-
-	<header>
-      <div id="brand"><a href="./">Company</a></div>
-      <nav>
-        <ul>
-          <li><a href="./">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="contact.html">Contact</a><li>
-        </ul>
-      </nav>
-      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-        <ul class="mobile-menu">
-          <li><a href="./">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="contact.html">Contact</a><li>
-        </ul>
+    <meta name="author" content="Lalit">
+    <meta name="description" content="This is the about page of a multiple-page website example.">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <style>
+      #wrapper {
+        max-width: 1050px;
+        margin: 60px auto 60px auto;
+        background-color: #DDD;
+      }
+      
+      #outer {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+      }
+      
+      .itemwrapper {
+        display: table-cell;
+        vertical-align: top;
+        width: 100%;
+        padding:10px;
+      }
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      p {
+        margin: 10px;
+        padding: 10px;
+        color: #000000;
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="grad1">
+      <header>
+        <div id="brand"><a href="./">Company</a></div>
+        <nav>
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a><li>
+          </ul>
+        </nav>
+        <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="./">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="contact.html">Contact</a><li>
+          </ul>
+        </div>
+      </header>
+    
+      <h1>About Page</h1>
+      
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mauris tellus, aliquet ut ultricies id, euismod eget magna. Cras vel cursus turpis. Nunc id imperdiet lorem, in gravida nunc. Nam in urna cursus, pellentesque lectus sed, tincidunt mi. Nulla nec magna nunc. Morbi tempus commodo tortor, sit amet condimentum enim dictum et. Aliquam erat volutpat. Cras id dolor dolor. Nunc sed vestibulum leo. Praesent sagittis mattis sapien, in ultricies tellus fermentum ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam hendrerit a tellus sed faucibus.</p>
+      <div id="wrapper">
+        <div id="outer">
+          <div class="itemwrapper">
+            <img src="images/laptop.jpg" alt="laptop" />
+          </div>
+          <div class="itemwrapper">
+            <img src="images/draw.jpg" alt="drawing" />
+          </div>
+        </div>
       </div>
-    </header>
-	
-	<h1>About Page</h1>
-
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus mauris tellus, aliquet ut ultricies id, euismod eget magna. Cras vel cursus turpis. Nunc id imperdiet lorem, in gravida nunc. Nam in urna cursus, pellentesque lectus sed, tincidunt mi. Nulla nec magna nunc. Morbi tempus commodo tortor, sit amet condimentum enim dictum et. Aliquam erat volutpat. Cras id dolor dolor. Nunc sed vestibulum leo. Praesent sagittis mattis sapien, in ultricies tellus fermentum ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam hendrerit a tellus sed faucibus.</p>
-	<div id="wrapper">
-	  <div id="outer">
-		<div class="itemwrapper">
-		  <img src="images/laptop.jpg" alt="laptop" />
-		</div>
-		<div class="itemwrapper">
-		  <img src="images/draw.jpg" alt="drawing" />
-		</div>
-	  </div>
-	</div>
-
-</div>
-<script src="js/index.js"></script>
-</body>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
 </html>
