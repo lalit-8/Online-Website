@@ -40,7 +40,7 @@ body {
 	box-shadow: 0 5px #999;
 }
 .quote-button:hover, #copy-text:hover {
-    background-color: #00518b;
+        background-color: #00518b;
 }
 .quote-button:active, #copy-text:active {
 	background-color: #00518b;
