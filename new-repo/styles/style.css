@@ -29,7 +29,7 @@ ul li:hover {
 }
 
 ul li.checked {
-  background: #888;
+  background: #800;
   color: #fff;
   text-decoration: line-through;
 }
@@ -60,9 +60,9 @@ ul li.checked::before {
 }
 
 .header {
-  background-color: #f44336;
+  background-color: #ffa500;
   padding: 30px 40px;
-  color: white;
+  color: #000;
   text-align: center;
 }
 
