@@ -26,4 +26,7 @@
 <tr>
   <td>7</td><td>To Do List</td><td><a target="_blank" href="https://lalit-8.github.io/to-do-list/">&#128279;</a></td>
 </tr>
+<tr>
+  <td>8</td><td>Toggle Dark Mode</td><td><a target="_blank" href="https://lalit-8.github.io/toggle-dark-mode/">&#128279;</a></td>
+</tr>
 </table>
