@@ -18,15 +18,12 @@
   <td>4</td><td>OSI Model</td><td><a target="_blank" href="https://lalit-8.github.io/osi-model/">&#128279;</a></td>
 </tr>
 <tr>
-  <td>5</td><td>3D button Session</td><td><a target="_blank" href="https://lalit-8.github.io/3d-button/">&#128279;</a></td>
+  <td>5</td><td>Multi Page Website</td><td><a target="_blank" href="https://lalit-8.github.io/multi-page/">&#128279;</a></td>
 </tr>
 <tr>
-  <td>6</td><td>Multi Page Website</td><td><a target="_blank" href="https://lalit-8.github.io/multi-page/">&#128279;</a></td>
+  <td>6</td><td>To Do List</td><td><a target="_blank" href="https://lalit-8.github.io/to-do-list/">&#128279;</a></td>
 </tr>
 <tr>
-  <td>7</td><td>To Do List</td><td><a target="_blank" href="https://lalit-8.github.io/to-do-list/">&#128279;</a></td>
-</tr>
-<tr>
-  <td>8</td><td>Toggle Dark Mode</td><td><a target="_blank" href="https://lalit-8.github.io/toggle-dark-mode/">&#128279;</a></td>
+  <td>7</td><td>Toggle Dark Mode</td><td><a target="_blank" href="https://lalit-8.github.io/toggle-dark-mode/">&#128279;</a></td>
 </tr>
 </table>
