@@ -26,4 +26,7 @@
 <tr>
   <td>7</td><td>Toggle Dark Mode</td><td><a target="_blank" href="https://lalit-8.github.io/toggle-dark-mode/">&#128279;</a></td>
 </tr>
+<tr>
+  <td>8</td><td>Counter On Scroll</td><td><a target="_blank" href="https://lalit-8.github.io/counter-on-scroll/">&#128279;</a></td>
+</tr>
 </table>
