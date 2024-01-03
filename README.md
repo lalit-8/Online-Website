@@ -1,8 +1,8 @@
-# Online Websites
+# GitHub Pages
 <table>
 <tr>
   <th>#</th>
-  <th>GitHub Pages</th>
+  <th>Title</th>
   <th>Link</th>
 </tr>
 <tr>
